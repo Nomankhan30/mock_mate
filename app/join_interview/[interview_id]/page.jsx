@@ -79,13 +79,13 @@ const Page = () => {
     }, [interview_id])
 
     return (
-        <div className=' border-amber-700 p-5 flex-col items-center border rounded-xl mt-15 px-10 md:px-25 lg:px-35 xl:px-45 flex justify-center'>
-            <div className='w-full mb-5 border-amber-700 p-5 flex-col items-center border rounded-xl mt-15 px-10 md:px-20 lg:px-30 xl:px-40 flex justify-center'>
-                <Image src="/next.svg" alt="logo image" width={200} height={100} />
+        <div className='  p-5 flex-col items-center  mt-2 px-10 md:px-25 lg:px-35 xl:px-45 flex justify-center'>
+            <div className='w-full mb-5  p-5 flex-col items-center border rounded-xl mt-15 px-10 md:px-20 lg:px-30 xl:px-40 flex justify-center'>
+                <Image src="/app_logo.svg" alt="logo" width={200} height={100} />
                 <h2 className='font-bold mt-6'>AI POWERED INTERVIEW PLATFORM</h2>
-                <Image className="border w-full " src="/interview.svg" alt="interview" width={200} height={200} />
+                <Image className=" w-full " src="/interview.svg" alt="interview" width={200} height={200} />
                 <h2 className='mt-2 font-bold text-lg'>{interviewData?.job}</h2>
-                <div className='mt-2 w-full items-center justify-center border flex gap-2'>
+                <div className='mt-2 w-full items-center justify-center  flex gap-2'>
                     <h2 className='mt-3 text-sm flex flex-col gap-2'><Clock className='w-5 h-5' />
                         {interviewData?.[0]?.Duration || "15 MINS"}
                     </h2>

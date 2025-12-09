@@ -35,7 +35,9 @@ function Provider({ children }) {
                         created_at: user?.created_at,
                         name: user.user_metadata.name,
                         picture: user.user_metadata.picture,
-                        email: user.email
+                        email: user.email,
+                        credits: credits
+
                     }
 
                 )

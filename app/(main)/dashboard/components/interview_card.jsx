@@ -26,7 +26,7 @@ const Interview_Card = ({ interview, viewDetails = false }) => {
             </div>
             <h2 className='w-full text-center line-clamp-1 text-lg font-bold mt-2  '>{interview?.job}</h2>
             <h2 className='text-lg items-center w-full flex flex-col sm:flex-row  font-semibold md:text-xl mt-2 sm:justify-between'>{interview?.Duration}
-                <span className='text-primary'>{interview["Interview_Feedback"]?.length} Candidates</span>
+                <span className='text-primary'>{interview?.candidates} Candidates</span>
 
             </h2>
 

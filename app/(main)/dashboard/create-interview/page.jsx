@@ -7,7 +7,10 @@ import { Progress } from '@/components/ui/progress'
 import Form from './components/form'
 import QuestionList from "./components/QuestionList"
 import Interview from "./components/generate_interview_link_page"
+import { useUser } from "@/app/provider"
 const CreateInterview = () => {
+    console.log("CREATE INTERVIEW CALLED")
+    const { user } = useUser()
     const route = useRouter()
     const [step, setStep] = useState(1)
     const [interview_id, setInterviewId] = useState()

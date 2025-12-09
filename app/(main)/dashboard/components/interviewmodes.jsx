@@ -11,11 +11,14 @@ const InterviewModes = () => {
                 <h2 className='font-bold'>Create New Interview</h2>
                 <p className='text-black'>Create Interviews with AI to schedule them with candidates</p>
             </Link>
-            <div className='border-2 m-2 p-2 rounded-lg'>
-                <Phone className='bg-blue-100  w-15 h-13 p-3 text-primary' />
-                <h2 className='font-bold'>Create Phone Screening Calls</h2>
-                <p className='text-black'>Kickstart your interview flow with quick phone screenings.</p>
-            </div>
+            <Link href="/phone_screening">
+                <div className='border-2 m-2 p-2 rounded-lg'>
+                    <Phone className='bg-blue-100  w-15 h-13 p-3 text-primary' />
+                    <h2 className='font-bold'>Create Phone Screening Calls</h2>
+                    <p className='text-black'>Kickstart your interview flow with quick phone screenings.</p>
+                </div>
+            </Link>
+
         </div>
     )
 }
