@@ -74,27 +74,32 @@ npm run dev
 🔑 Environment Variables
 
 Create .env.local and fill:
-NEXT_PUBLIC_SUPABASE_URL=Your URL
-NEXT_PUBLIC_SUPABASE_ANON_KEY=Your_Key
-OPEN_ROUTER_API_KEY=Your_Key
-GEMINI_API_KEY=Your_Key
-NEXT_PUBLIC_HOST_URL=Your URL
-NEXT_PUBLIC_MOCK_INTERVIEWER=Your_Key
-NEXT_PUBLIC_STRIPE_PUBLIC_KEY=Your_Key
-STRIPE_SECRET_KEY=Your_Key
-NEXT_PUBLIC_STRIPE_PRICE_ID=Your_Key
-NEXT_PUBLIC_BASE_URL=Your URL
-NEXT_PUBLIC_STRIPE_5UNIT_PRICE_ID=Your_Key
+
+NEXT_PUBLIC_SUPABASE_URL="Your_URL"
+NEXT_PUBLIC_SUPABASE_ANON_KEY="Your_Key"
+OPEN_ROUTER_API_KEY="Your_Key"
+GEMINI_API_KEY="Your_Key"
+NEXT_PUBLIC_HOST_URL="Your_URL"
+NEXT_PUBLIC_MOCK_INTERVIEWER="Your_Key"
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY="Your_Key"
+STRIPE_SECRET_KEY="Your_Key"
+NEXT_PUBLIC_STRIPE_PRICE_ID="Your_Key"
+NEXT_PUBLIC_BASE_URL="Your_URL"
+NEXT_PUBLIC_STRIPE_5UNIT_PRICE_ID="Your_Key"
 
 💳 Freemium Model
+
 MockMate operates on a freemium model designed to give every user a risk-free start to their interview preparation journey.Every new user is granted 3 free interviews upon signing in.Afterwards, user has to subscribe for more interviews.
 
 Simplified Folder Structure:
+
 app/
 components/
 lib/
 utils/
 hooks/
+public/screenshots/
+
 
 📜 License
 MIT License.
