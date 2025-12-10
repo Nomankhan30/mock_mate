@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+MockMate (AI Mock Interview Platform) 
 
-## Getting Started
+MockMate is an AI-powered mock interview platform that helps users practice interviews and get personalized questions & feedback using Gemini + Vapi voice conversation. It simulates a real interview experience and evaluates answers in real-time.
 
-First, run the development server:
+✨ Features
 
-```bash
+🎤 Voice interview powered by Vapi
+
+💡 Personalized questions based on user's preferences.
+
+🧠 AI feedback after each interview with detailed report.
+
+👨‍💼 HR + Technical mock interviews
+
+🔐 Google authentication (Supabase)
+
+💳 Stripe Integration 
+
+🎯 Interview conversation history
+
+🧩 Dashboard + multiple interview flows
+
+🚀 Tech Stack
+| Category   | Tech                 |
+| ---------- | -------------------- |
+| Frontend   | Next.js              |
+| UI         | Tailwind + Shadcn    |
+| Auth       | Supabase Google Auth |
+| Billing    | Stripe Subscription  |
+| AI         | Gemini API           |
+| Voice      | Vapi                 |
+| Deployment | Coming Soon          |
+
+🧠 How MockMate Works
+
+User signs in with Google (Supabase Auth)
+
+Creates an interview based on personal preferences.
+
+Gemini generates questions based on user's preferences.
+
+Vapi starts a voice interview
+
+After each answer feedback is generated
+
+Final evaluation and feedback report is generated.
+
+## 📸 Screenshots
+
+### Sign In
+![Sign In With Google](./public/screenshots/mockmate_readme_screenshot1.png)
+
+### Dashboard
+![Dashboard](./public/screenshots/mockmate_readme_2.png)
+
+### Create New Interview
+![Create New Interview](./public/screenshots/mockmate_readme_3_createnewquestions.png)
+
+### Share Interview
+![Share Interview](./public/screenshots/share_interview.png)
+
+### Join Interview 
+![Join Interview](./public/screenshots/mockmate_4_interviewId.png)
+
+### Start Conversation With AI 
+![Conversation With AI](./public/screenshots/mockmate_conversation_5.png)
+
+🔧 Installation
+git clone https://github.com/Nomankhan30/mock_mate.git
+cd mockmate
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔑 Environment Variables
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Create .env.local and fill:
+NEXT_PUBLIC_SUPABASE_URL=Your URL
+NEXT_PUBLIC_SUPABASE_ANON_KEY=Your_Key
+OPEN_ROUTER_API_KEY=Your_Key
+GEMINI_API_KEY=Your_Key
+NEXT_PUBLIC_HOST_URL=Your URL
+NEXT_PUBLIC_MOCK_INTERVIEWER=Your_Key
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=Your_Key
+STRIPE_SECRET_KEY=Your_Key
+NEXT_PUBLIC_STRIPE_PRICE_ID=Your_Key
+NEXT_PUBLIC_BASE_URL=Your URL
+NEXT_PUBLIC_STRIPE_5UNIT_PRICE_ID=Your_Key
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+💳 Freemium Model
+MockMate operates on a freemium model designed to give every user a risk-free start to their interview preparation journey.Every new user is granted 3 free interviews upon signing in.Afterwards, user has to subscribe for more interviews.
 
-## Learn More
+Simplified Folder Structure:
+app/
+components/
+lib/
+utils/
+hooks/
 
-To learn more about Next.js, take a look at the following resources:
+📜 License
+MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🧑‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Built by Noman Khan 🎯
 
-## Deploy on Vercel
+⭐ If you like it…
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+star the repo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+report issues
+
+suggest improvements
+
+MockMate is under active development 🚀
