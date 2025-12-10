@@ -65,6 +65,10 @@ Final evaluation and feedback report is generated.
 ### Start Conversation With AI 
 ![Conversation With AI](./public/screenshots/mockmate_conversation_5.png)
 
+### Billing Page
+![Billing](./public/screenshots/billing.png)
+
+
 🔧 Installation
 git clone https://github.com/Nomankhan30/mock_mate.git
 cd mockmate
