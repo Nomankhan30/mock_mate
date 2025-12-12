@@ -4,10 +4,7 @@ import OpenAI from "openai"
 import { PROMPT } from "../../(main)/data/Question_Prompt.js"
 
 export async function POST(req) {
-    console.log("Haan jee")
-    console.log("My prompt is", PROMPT)
     const { job, jobDesc, Duration, type } = await req.json()
-    console.log("job", job)
     const Prompt = PROMPT
         // regex global for replacing all occcurences.
         .replace(/{{jobTitle}}/g, job)
